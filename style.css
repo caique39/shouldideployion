@@ -191,6 +191,7 @@ ul.footer-list select {
 }
 
 .reason {
+  cursor: pointer;
   white-space: pre-line;
   padding: 0 6rem;
 }
@@ -200,3 +201,4 @@ ul.footer-list select {
     padding: 0 2rem;
   }
 }
+

@@ -63,7 +63,7 @@ export default class Widget extends React.Component {
     return (
       <div className="item">
         <h3 className="tagline">Should I Deploy Ion Today?</h3>
-        <h2 id="text" className="reason">
+        <h2 id="text" onClick={this.onSpacePressOrClick} className="reason">
           {this.state.reason}
         </h2>
         <span id="reload" onClick={this.onSpacePressOrClick}>
