@@ -7,7 +7,7 @@ const Footer = (props) => (
       <li>Share:</li>
       <li>
         <a
-          href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fshouldideploy.today%2F&t=Should%20I%20Deploy%20Today%3F"
+          href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fshouldideployion.today%2F&t=Should%20I%20Deploy%20Ion%20Today%3F"
           target="_blank"
           rel="noopener noreferrer"
           title="Share on Facebook"
@@ -17,7 +17,7 @@ const Footer = (props) => (
       </li>
       <li>
         <a
-          href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fshouldideploy.today%2F&text=Should%20I%20Deploy%20Today%3F:%20http%3A%2F%2Fshouldideploy.today"
+          href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fshouldideployion.today%2F&text=Should%20I%20Deploy%20Ion%20Today%3F:%20http%3A%2F%2Fshouldideployion.today"
           target="_blank"
           rel="noopener noreferrer"
           title="Tweet"
@@ -30,7 +30,7 @@ const Footer = (props) => (
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="http://github.com/baires/shouldideploy/"
+          href="http://github.com/caique39/shouldideployion/"
         >
           Github
         </a>
@@ -38,19 +38,6 @@ const Footer = (props) => (
       <li>
         Timezone:{' '}
         <Timezone onChange={props.changeTimeZone} timezone={props.timezone} />
-      </li>
-    </ul>
-
-    <ul className="footer-list">
-      <li>
-        <a href={'/api?tz=' + props.timezone}>
-          <mark>API</mark>
-        </a>
-      </li>
-      <li>
-        <a href={'/api/slack?tz=' + props.timezone}>
-          <mark>New Slack API</mark>
-        </a>
       </li>
     </ul>
   </>
