@@ -24,7 +24,7 @@ export const REASONS_TO_NOT_DEPLOY = [
   "Let's do it next Sunday! 🍦",
   "At 9pm BRT? I'd rather watch Netflix!",
   'Did the product team ask you to do it? Yes? OMG! Are they nuts?',
-  'Do you have the courage to not break it into 3 waves? :evil emoji:',
+  'Do you have the courage to not break it into 3 waves? 😈',
   "I'll create an interactive content to prove you that today is not a good day.",
   'Have you changed Creative Studio? I think you should review your code once again, just in case.',
   "I'd rather have 100% bounce rate!",
