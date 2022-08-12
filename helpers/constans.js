@@ -56,10 +56,6 @@ export function dayHelper(time) {
     return REASONS_FOR_FRIDAY_13TH
   }
 
-  if (time.isFridayAfternoon()) {
-    return REASONS_FOR_FRIDAY_AFTERNOON
-  }
-
   if (time.isFriday()) {
     return REASONS_TO_NOT_DEPLOY
   }
